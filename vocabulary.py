@@ -8,9 +8,8 @@ product = {
     }
 
 
-#product['memory'] = 10
-
-#print(product)
+product['memory'] = 10
+print(product)
 #print(product.get("memory"))
 #del product["stock"]
 #product["recomend"]= phones
