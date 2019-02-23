@@ -1,0 +1,5 @@
+product = {
+    "name": "iPhone X",
+    "stock": 5,
+    "price": 66000.0
+    }
