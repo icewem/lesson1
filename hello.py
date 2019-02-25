@@ -1,3 +1,4 @@
-age = int(input("Сколко вам лет?"))
-age = 2019 - age
-print(f'Вы родились в {age}')
+import datetime
+
+datetime.datetime.now().time()
+print(datetime.datetime.now())
