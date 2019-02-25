@@ -1,4 +1,2 @@
-import datetime
-
-datetime.datetime.now().time()
-print(datetime.datetime.now())
+my_name = "Artem"
+print(my_name)
