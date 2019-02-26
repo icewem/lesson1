@@ -15,8 +15,26 @@ def discounted(price,discount,max_discount=50):
 print(discounted(100,40))
 
 # Задание 1
-# Создайте функцию get_summ(one, two, delimiter='&') которая принимает два парамтера, вприводит их к строке и отдает объединеными через разделитель delimteter
+# Создайте функцию get_summ(one, two, delimiter='&') которая принимает два парамтера,  и приводит их к строке и отдает объединеными через разделитель delimteter
+
+
+def get_summ(one, two, delimiter='&'):
+    print(one,delimiter,two)
+
+get_summ(input(str("Введите параметр 1:")), input(str("Введите параметр 2:")))
+
 # Вызовите функцию, пердав в нее два аргумента "Learn" и "python", положите результат в переменную и выведите ее значение на экран
+
+def get_summ(one, two, delimiter='&'):
+    result = one + delimiter + two
+    print(result)
+    
+get_summ("Learn","python")
+
 # Сделайте так, чтобы результирующая строка выводилась заглавными буквами
 
-def get_summ(one, two, delimiter='&')
+def get_summ(one, two, delimiter='&'):
+    result = one + delimiter + two
+    print(result.upper())
+    
+get_summ("Learn","python")
